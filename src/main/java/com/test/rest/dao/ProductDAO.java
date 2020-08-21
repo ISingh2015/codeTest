@@ -74,6 +74,7 @@ public class ProductDAO
 						new Double(data[5]).doubleValue(), new Double(data[6]).doubleValue(),
 						new Integer(data[7]).intValue());
 				addProduct(product);
+				keyForItem++;
 				System.out.println(product.toString());
 			} catch (Exception e) {
 				// ignoring errors (e.g: case of header present)

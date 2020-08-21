@@ -1,6 +1,9 @@
 package com.test.rest.dao;
 
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import com.test.rest.model.Porder;
@@ -13,4 +16,13 @@ import com.test.rest.model.Porder;
  */
 @Repository
 public interface OrderDAO extends JpaRepository<Porder, Integer> {
+	
+	/**
+	 * Get Orders related to Product Id for Stock Calculation.
+	 * @param productId
+	 * @return
+	 */
+	@Query("select o from Porder o where o.productId=?1")
+	public List<Porder> getAllOrdersForProduct(Integer productId) ;
+	
 }

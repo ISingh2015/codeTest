@@ -20,25 +20,23 @@ If run succeeds web app will be up and running. You can browse Product Service e
     
 ### End Points Product Controller :-	
     
-1. http://localhost:8080/products/allProducts 
+#### 1. http://localhost:8080/products/allProducts 
 	List all products 
-	 
-2. http://localhost:8080/products/byCompany&comp=Apple&price=7000 (list products from apple excluding price =7000)
+#### 2. http://localhost:8080/products/byCompany?comp=Apple&price=7000 (list products from apple excluding price =7000)
 	Parameters :- comp & price (optional)
-	List Products by company
-	 
-3. http://localhost:8080/products/byCategory&cat=Mobile&price=50000(list products from Mobile category excluding price =50000)
+	List Products by company  
+#### 3. http://localhost:8080/products/byCategory?cat=Mobile&price=50000(list products from Mobile category excluding price =50000)
 	Parameters :- cat & price (optional)
-	List Products by Category
-	
-### End Points Order Controller :-   
-  
-#### 1. http://localhost:8080/order/addOrder (Post End point. you will require POSTMAN installed on your local)
-	To add an order to H2 database
-#### 2. http://localhost:8080/order/deleteAll  
-	To remove all saved Orders 
-#### 3. http://localhost:8080/order/delete/{id}  
-	To remove saved Order by Order ID  
-A High Level Diagram REST End points accessibility.  (Spring REST / JAVA REST)
-![alt text](https://github.com/isingh2015/codeTest/raw/master/src/main/resources/High1.PNG "High Level Diagram of REST")
+	List Products by Category  
+#### 4. http://localhost:8080/products/getStock?prodCode=1 
 
+### End Points Order Controller :-   (Post End point. you will require POSTMAN  / CURL installed on your local)  
+
+#### 1. http://localhost:8080/order/addOrder
+	To add an order to H2 database  
+#### 2. http://localhost:8080/order/deleteAll  
+	To remove all saved Orders  
+#### 3. http://localhost:8080/order/delete/{id}  
+	To remove saved Order by Order ID    
+A High Level Diagram REST End points accessibility.  (Spring REST / JAVA REST)  
+![alt text](https://github.com/isingh2015/codeTest/raw/master/src/main/resources/High1.PNG "High Level Diagram of REST")
