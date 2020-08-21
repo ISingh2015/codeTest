@@ -44,4 +44,4 @@ If run succeeds web app will be up and running. You can browse Product Service e
 #### 3. http://localhost:8080/order/delete/{id}
 	To remove saved Order by Order ID
 
-	
+![alt text](https://github.com/isingh2015/codeTest/raw/master/src/main/resources/High1.PNG "High Level Diagram of REST")
