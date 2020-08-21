@@ -1,16 +1,16 @@
-#codeTest
+# codeTest
   
 You will require Java 8, GIT Client, Maven & PostMan/CURL installed on your local for building and running the project.  
-Database used : H2 (auto update tables for ### Order)
+Database used : H2 (auto update tables for Order)
   
 ### First Clone the project as below:  
   
-`1. open a command prompt or power shell (windows) or CTRL-SHIFT-T ubuntu to open a terminal.(you will need to be a SUDOER) 
-2. git clone https://github.com/ISingh2015/codeTest.git`
+1. open a command prompt or power shell (windows) or CTRL-SHIFT-T ubuntu to open a terminal.(you will need to be a SUDOER)   
+2. `git clone https://github.com/ISingh2015/codeTest.git`  
   
 ### Second check if JAVA, MAVEN  is on the path and build the web app as below:
   
-1. cd into project directory and run MAVEN commands to run the web application.
+1. cd into project directory and run MAVEN commands to run the web application.  
 2.`mvn clean install` 
     
 If everything goes well the JAR file is generated in the TARGET folder of the web app root.
@@ -18,7 +18,7 @@ If everything goes well the JAR file is generated in the TARGET folder of the we
 CD into the target folder and run as below
 `java -jar codeTest.0.0.1.jar`
   
-If run succeeds web app is up and running. You can browse ### Product Service end points on the below URL's:
+If run succeeds web app is up and running. You can browse Product Service end points on the below URL's:
     
 ### End Points Product Controller :-	
     
