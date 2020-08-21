@@ -18,7 +18,7 @@ If everything goes well the JAR file is generated in the TARGET folder of the we
 CD into the target folder and run as below
 `java -jar codeTest.0.0.1.jar`
   
-If run succeeds web app is up and running. You can browse ###Product Service### end points on the below URL's:
+If run succeeds web app is up and running. You can browse ### Product Service end points on the below URL's:
     
 ### End Points Product Controller :-	
     
@@ -33,13 +33,13 @@ If run succeeds web app is up and running. You can browse ###Product Service### 
 	Parameters :- cat & price (optional)
 	List Products by Category
 	
-### End Points Order Controller :- 
-
+### End Points Order Controller :-   
+  
 #### 1. http://localhost:8080/order/addOrder (Post End point. you will require POSTMAN installed on your local)
 	To add an order to H2 database
 
 #### 2. http://localhost:8080/order/deleteAll
-	To remove all saved Orders
+	To remove all saved Orders 
 
 #### 3. http://localhost:8080/order/delete/{id}
 	To remove saved Order by Order ID
