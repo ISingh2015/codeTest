@@ -1,10 +1,8 @@
-# codeTest
-  
+# codeTest  
+#### Spring Boot Application (depends on license availability, can be achieved with JAVA REST)  
 You will require Java 8, GIT Client, Maven & PostMan/CURL installed on your local for building and running the project.  
-Database used : H2 (auto update tables for Order)
-  
+Database used : H2 (auto update tables for Order)  
 ### First Clone the project as below:  
-  
 1. open a command prompt or power shell (windows) or CTRL-SHIFT-T ubuntu to open a terminal.(you will need to be a SUDOER)   
 2. `git clone https://github.com/ISingh2015/codeTest.git`  
   
@@ -37,11 +35,10 @@ If run succeeds web app will be up and running. You can browse Product Service e
   
 #### 1. http://localhost:8080/order/addOrder (Post End point. you will require POSTMAN installed on your local)
 	To add an order to H2 database
-
-#### 2. http://localhost:8080/order/deleteAll
+#### 2. http://localhost:8080/order/deleteAll  
 	To remove all saved Orders 
-
-#### 3. http://localhost:8080/order/delete/{id}
-	To remove saved Order by Order ID
-
+#### 3. http://localhost:8080/order/delete/{id}  
+	To remove saved Order by Order ID  
+A High Level Diagram REST End points accessibility.  (Spring REST / JAVA REST)
 ![alt text](https://github.com/isingh2015/codeTest/raw/master/src/main/resources/High1.PNG "High Level Diagram of REST")
+
