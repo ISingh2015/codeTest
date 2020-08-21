@@ -15,10 +15,10 @@ Database used : H2 (auto update tables for Order)
     
 If everything goes well the JAR file is generated in the TARGET folder of the web app root.
 ### Third RUN the application
-CD into the target folder and run as below
+CD into the target folder and run as below  
 `java -jar codeTest.0.0.1.jar`
   
-If run succeeds web app is up and running. You can browse Product Service end points on the below URL's:
+If run succeeds web app will be up and running. You can browse Product Service end points on the below URL's:
     
 ### End Points Product Controller :-	
     
