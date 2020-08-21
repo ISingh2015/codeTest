@@ -38,5 +38,5 @@ If run succeeds web app will be up and running. You can browse Product Service e
 	To remove all saved Orders  
 #### 3. http://localhost:8080/order/delete/{id}  
 	To remove saved Order by Order ID    
-A High Level Diagram REST End points accessibility.  (Spring REST / JAVA REST)  
+A High Level Diagram Product REST End points accessibility integration with Inventory CLAIMS - PAYMENTS.  (Spring REST / JAVA REST)  
 ![alt text](https://github.com/isingh2015/codeTest/raw/master/src/main/resources/High1.PNG "High Level Diagram of REST")
